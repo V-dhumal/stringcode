@@ -1,0 +1,62 @@
+.navbar{
+    color:#000;
+    height:180px;
+    width:1400px;
+    background-color:rgb(251, 249, 247);
+    box-shadow:0px 0px 0px 5px #f8560b;
+    margin-top:-10px;
+    margin-left:-10px;
+    }
+    .stringcode-logo-image{
+    height:120px;
+    width:250px;
+    margin-left:80px;
+    padding:7px;
+    border-radius:2px;
+    border:double 7px white;
+    background-color:rgb(179, 176, 172);
+    margin-top:20px;
+    }
+    .navbar-brand-name{
+        margin-top:0px;
+    }
+    .navbar-menu-container{
+    margin-left:600px;
+    padding:20px;
+    margin-top:-80px;
+    }
+    .navbar-menu{
+    padding:20px;
+    border:nine;
+    font-size:20px;
+    color:black;
+    width:20px;
+    height:10px;
+    text-decoration:none;
+    }
+    .navbar-menu:hover{
+    width:20px;
+    height:10px;
+    border-radius:10px;
+    background-color:#f8560b;
+    color:#fff;
+    padding:5px 10px;
+    margin:5px;
+    cursor:pointer;
+   
+}
+.image{
+    margin-top:20px;
+    margin-left:40px;
+}
+.heading{
+    margin-left:20px;
+}
+.link-tag{
+    color:#000;
+    text-decoration: none;
+}
+.link-tag:hover{
+    color:#fff;
+    text-decoration: none;
+}

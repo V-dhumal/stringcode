@@ -1,0 +1,152 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color:rgb(217, 216, 216);
+    }
+    .navbar{
+    color:#000;
+    height:200px;
+    width:100%;
+    background-color:rgb(251, 249, 247);
+    box-shadow:0px 0px 0px 5px #f8560b;
+    }
+    .stringcode-logo-image{
+    height:140px;
+    width:250px;
+    margin-left:80px;
+    padding:7px;
+    border-radius:2px;
+    border:double 7px white;
+    background-color:rgb(179, 176, 172);
+    margin-top:20px;
+    }
+    .navbar-brand-name{
+        margin-top:0px;
+    }
+    .navbar-menu-container{
+    margin-left:600px;
+    padding:20px;
+    margin-top:-80px;
+    }
+    .navbar-menu{
+        padding:20px;
+    
+        font-size:22px;
+        color:#3b2612;
+        width:20px;
+        height:10px;
+        }
+        .navbar-menu:hover{
+        width:20px;
+        height:10px;
+        border-radius:10px;
+        background-color:#f8560b;
+        color:#fff;
+        padding:5px 10px;
+        margin:5px;
+        cursor:pointer;
+    }
+    .link-tag{
+        color:#000;
+        text-decoration:none;
+
+    }
+    .link-tag:hover{
+        color:white;
+    }
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:stretch;
+        padding: 20px;
+        
+       
+      }
+      
+    .content{
+        border: 00px solid #000;
+        border-radius: 5px;
+        margin: 60px;
+        padding: 20px;
+        width: 400px;
+        text-align: center;
+        background-color: #fef8f8;
+        display: flex;
+        flex-direction: column;
+        font-size:18px;
+        text-align:justify ; 
+        box-shadow:2px 2px 2px 2px #bebcbc;
+      }
+      .service p {
+        text-align: left;
+        font-size:20px;
+      }
+    .image1{
+        height:550px;
+        width:95%;
+        position:cover;
+        margin-top:20px;
+        margin-left:30px;
+    }
+    .description{
+        font-size:30px;
+        margin-left:40px;
+        text-align:center;
+        margin-top:60px;
+    }
+    .heading{
+        margin:auto;
+        font-size:28px;
+        text-align: center;
+        margin-top:20px;
+    }
+    .heading1{
+        text-align:center;
+    }
+    .description3{
+        margin-top:-100px;
+    }
+    .footer-contact{
+        background-color:  #24262b;
+        padding: 50px 0;
+        height:250px;
+        margin-top:10px;
+        width:100%;
+    }
+    .contact-container{
+        margin:auto;
+        display: flex;
+        margin-left:160px ;
+        height:200px;
+        
+    }
+    .footer-col{
+        color: white;
+        font-size: 20px;
+    
+    }
+    .contact-row{
+        line-height:27px;
+        margin-left:10px;
+        margin-top:-10px;
+    }
+    .contact-footer-info{
+        text-decoration: none;
+        color: #faf8f8;
+        margin-top:10px;
+        
+    }
+    .social-link{
+       line-height: 100px;
+        display: flex;
+    }
+    .footer-col h4{
+        line-height:50px;
+        text-underline-position: 5px;
+    }
+    .img-contact{
+        width:30px;
+        height:30px;
+        cursor:pointer;
+    }
