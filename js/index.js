@@ -28,5 +28,5 @@ var currentImg = 0;
     }
 
     imgs[currentImg].style.opacity = 1;
-    dots[currentImg].className += ' active';
+    dots[currentImg].className +='active';
   }
