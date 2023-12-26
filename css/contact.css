@@ -16,14 +16,14 @@ section{
   row-gap: 10px;
   height: 100vh;
   padding: 50px;
-
+  margin-top:80px;
 }
 
 #heading_p{
     color:#000;
     font-weight: 600;
     position: relative;
-    margin-top:70px;
+    margin-top:100px;
 }
 
 #heading_h1{
@@ -75,22 +75,20 @@ bottom: -10px;
 .address{
   color:#000;
   cursor:pointer;
+  text-align: justify;
 }
 .navbar{
     color:#000;
-    height:180px;
+    height:120px;
     width:100%;
     background-color:rgb(251, 249, 247);
     box-shadow:0px 0px 0px 5px #f8560b;
     }
     .stringcode-logo-image{
-    height:150px;
-    width:250px;
+    height:90px;
+    width:200px;
     margin-left:80px;
     padding:7px;
-    border-radius:2px;
-    border:double 7px white;
-    background-color:rgb(179, 176, 172);
     margin-top:20px;
     }
     .navbar-brand-name{
@@ -126,49 +124,58 @@ bottom: -10px;
 .link-tag:hover{
     color:#fff;
 }
+
 .footer-contact{
-    background-color:  #24262b;
-    padding: 50px 0;
-    height:550px;
-    margin-top:40px;
-    width:100%;
+  background-color:  #24262b;
+  padding: 50px 0;
+  height:280px;
+  margin-top:50px;
 }
 .contact-container{
-    margin:auto;
-    display: flex;
-    margin-left:160px ;
-    height:200px;
-    
+  max-width: 2000px;
+  margin:auto;
+  display: flex;
+  margin-left:180px ;
+  
 }
 .footer-col{
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 
 }
 .contact-row{
-    line-height:27px;
-    margin-left:10px;
-    margin-top:-10px;
+  line-height:27px;
+  margin-left:10px;
+  margin-top:-40px;
 }
 .contact-footer-info{
-    text-decoration: none;
-    color: #faf8f8;
-    margin-top:10px;
-    
+  text-decoration: none;
+  color: #faf8f8;
+ 
 }
 .social-link{
-   line-height: 100px;
-    display: flex;
+ line-height: 100px;
+  display: flex;
 }
 .footer-col h4{
-    line-height:50px;
-    text-underline-position: 5px;
+  line-height:50px;
+  text-underline-position: 5px;
 }
-.img-contact{
-    width:30px;
-    height:30px;
-    cursor:pointer;
+.contact{
+  margin-top:-40px;
+  text-align:start;
+  text-decoration: none;
+  color:#ccc;
+}
+.heading2{
+  margin-left:10px;
 }
 .link-tag{
-    text-decoration:none;
+  text-decoration:none;
+}
+.contact-footer-info1{
+  text-decoration: none;
+  color: #faf8f8;
+  margin-left:-14.5px;
+  text-align: justify;
 }

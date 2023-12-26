@@ -5,19 +5,16 @@ body{
     }
     .navbar{
     color:#000;
-    height:200px;
+    height:130px;
     width:100%;
     background-color:rgb(251, 249, 247);
     box-shadow:0px 0px 0px 5px #f8560b;
     }
     .stringcode-logo-image{
-    height:140px;
-    width:250px;
+    height:90px;
+    width:200px;
     margin-left:80px;
     padding:7px;
-    border-radius:2px;
-    border:double 7px white;
-    background-color:rgb(179, 176, 172);
     margin-top:20px;
     }
     .navbar-brand-name{
@@ -60,6 +57,14 @@ body{
         justify-content: center;
         align-items:stretch;
         padding: 20px;
+        margin-top:20px;
+        
+       
+      }
+      .contact-container1 {
+        display: flex;
+        padding: 20px;
+        margin-top:20px;
         
        
       }
@@ -67,9 +72,9 @@ body{
     .content{
         border: 00px solid #000;
         border-radius: 5px;
-        margin: 60px;
+        margin-left: 20px;
         padding: 20px;
-        width: 400px;
+        width: 300px;
         text-align: center;
         background-color: #fef8f8;
         display: flex;
@@ -78,7 +83,7 @@ body{
         text-align:justify ; 
         box-shadow:2px 2px 2px 2px #bebcbc;
       }
-      .service p {
+      .content p {
         text-align: left;
         font-size:20px;
       }
@@ -99,54 +104,54 @@ body{
         margin:auto;
         font-size:28px;
         text-align: center;
-        margin-top:20px;
+        margin-top:50px;
     }
     .heading1{
         text-align:center;
+        margin-top:10px;
     }
     .description3{
         margin-top:-100px;
     }
     .footer-contact{
-        background-color:  #24262b;
-        padding: 50px 0;
-        height:250px;
-        margin-top:10px;
-        width:100%;
+      background-color:  #24262b;
+      padding: 50px 0;
+      height:230px;
+      margin-top:50px;
     }
     .contact-container{
-        margin:auto;
-        display: flex;
-        margin-left:160px ;
-        height:200px;
-        
+      max-width: 2000px;
+      margin:auto;
+      display: flex;
+      margin-left:180px ;
+      
     }
     .footer-col{
-        color: white;
-        font-size: 20px;
+      color: white;
+      font-size: 20px;
     
     }
     .contact-row{
-        line-height:27px;
-        margin-left:10px;
-        margin-top:-10px;
+      line-height:27px;
+      margin-left:10px;
+      margin-top:-40px;
     }
     .contact-footer-info{
-        text-decoration: none;
-        color: #faf8f8;
-        margin-top:10px;
-        
+      text-decoration: none;
+      color: #faf8f8;
+      margin-left:-5px;
     }
     .social-link{
-       line-height: 100px;
-        display: flex;
+     line-height: 100px;
+      display: flex;
     }
     .footer-col h4{
-        line-height:50px;
-        text-underline-position: 5px;
+      line-height:50px;
+      text-underline-position: 5px;
     }
-    .img-contact{
-        width:30px;
-        height:30px;
-        cursor:pointer;
+    .contact{
+      margin-top:-40px;
+      text-align:start;
+      text-decoration: none;
+      color:#ccc;
     }

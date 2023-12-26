@@ -21,7 +21,7 @@ body {
     grid-gap: 20px;
     justify-items: center;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1100px;
     margin-top:20px;
   }
 
@@ -34,7 +34,19 @@ body {
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: justify;
+    margin-left:100px;
     
+  }
+  .industry2{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    margin-left:300px;
   }
 
   .industry img {
@@ -43,22 +55,25 @@ body {
     max-height: 200px; /* Adjusted max-height for moderate size */
     margin-bottom: 15px;
 }
+.industry2 img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjusted max-height for moderate size */
+    margin-bottom: 15px;
+}
 .navbar{
     color:#000;
-    height:180px;
-    width:100%;
+    height:120px;
+    width:1370px;
     background-color:rgb(251, 249, 247);
     box-shadow:0px 0px 0px 5px #f8560b;
     }
     .stringcode-logo-image{
-    height:120px;
-    width:250px;
+    height:90px;
+    width:200px;
     margin-left:80px;
     padding:7px;
-    border-radius:2px;
-    border:double 7px white;
-    background-color:rgb(179, 176, 172);
-    margin-top:20px;
+    margin-top:10px;
     }
     .navbar-brand-name{
         margin-top:0px;
@@ -103,46 +118,54 @@ body {
     align-items: center;
     margin-left:100px;
 }
+.heading3{
+    margin-top:10px;
+    text-align:center;
+}
 .footer-contact{
     background-color:  #24262b;
     padding: 50px 0;
     height:250px;
-    margin-top:40px;
-    width:100%;
-}
-.contact-container{
+    margin-top:50px;
+  }
+  .contact-container{
+    max-width: 2000px;
     margin:auto;
     display: flex;
-    margin-left:160px ;
-    height:200px;
+    margin-left:180px ;
     
-}
-.footer-col{
+  }
+  .footer-col{
     color: white;
     font-size: 20px;
-
-}
-.contact-row{
+  
+  }
+  .contact-row{
     line-height:27px;
     margin-left:10px;
-    margin-top:-10px;
-}
-.contact-footer-info{
+    margin-top:-40px;
+  }
+  .contact-footer-info{
     text-decoration: none;
     color: #faf8f8;
-    margin-top:10px;
-    
-}
-.social-link{
+  }
+  .social-link{
    line-height: 100px;
     display: flex;
-}
-.footer-col h4{
+  }
+  .footer-col h4{
     line-height:50px;
     text-underline-position: 5px;
-}
-.img-contact{
-    width:30px;
-    height:30px;
-    cursor:pointer;
-}
+  }
+  .contact{
+    margin-top:-60px;
+    text-align:start;
+    text-decoration: none;
+    color:#ccc;
+  }
+  .heading1{
+    margin-left:30px;
+  }
+  .contact-footer-info ul li{
+    margin-top:-10px;
+  }
