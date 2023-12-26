@@ -1,7 +1,7 @@
 body{
     padding:0px;
     margin:0px;
-    background-color:rgb(217, 216, 216);
+    background-color: #fff;
     }
     .navbar{
     color:#000;
@@ -31,7 +31,7 @@ body{
     .navbar-menu{
         padding:20px;
     
-        font-size:22px;
+        font-size:20px;
         color:#3b2612;
         width:20px;
         height:10px;
@@ -46,13 +46,11 @@ body{
         margin:5px;
         cursor:pointer;
        }
-    .content{
-       margin-top:40px;
-       padding:20px;
+    .content {
+        padding: 20px;
     }
     .section-title{
         text-align: center;
-        margin-top:30px;
     }
     .heading{
         text-align: center;
@@ -65,56 +63,52 @@ body{
         font-size: 20px;
         margin-left: 50px;
         margin-right: 50px;
-        margin-top:20px;
-    }
-    .link-tag{
-        text-decoration: none;
-        color:#000;
-    }
-    .link-tag:hover{
-        text-decoration:none;
-        color:white;
     }
     .footer-contact{
         background-color:  #24262b;
         padding: 50px 0;
         height:250px;
-        margin-top:100px;
-        width:100%;
-    }
-    .contact-container{
+        margin-top:30px;
+      }
+      .contact-container{
+        max-width: 2000px;
         margin:auto;
         display: flex;
-        margin-left:160px ;
-        height:200px;
+        margin-left:180px ;
         
-    }
-    .footer-col{
+      }
+      .footer-col{
         color: white;
         font-size: 20px;
-    
-    }
-    .contact-row{
+      
+      }
+      .contact-row{
         line-height:27px;
         margin-left:10px;
-        margin-top:-10px;
-    }
-    .contact-footer-info{
+        margin-top:-40px;
+      }
+      .contact-footer-info{
         text-decoration: none;
         color: #faf8f8;
-        margin-top:10px;
-        
-    }
-    .social-link{
+      }
+      .social-link{
        line-height: 100px;
         display: flex;
-    }
-    .footer-col h4{
+      }
+      .footer-col h4{
         line-height:50px;
         text-underline-position: 5px;
-    }
-    .img-contact{
+      }
+      .img-contact{
         width:30px;
         height:30px;
         cursor:pointer;
-    }
+      }      
+    
+    
+    
+    
+    
+    
+    
+    
