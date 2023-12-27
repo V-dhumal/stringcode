@@ -71,6 +71,13 @@ body{
   margin-left:10px;
 
 }
+.description3{
+  font-size:18px;
+  color:#000;
+  margin-top:30px;
+  margin-left:10px;
+
+}
 .mail{
   font-weight:bold;
   margin-left:1150px;
@@ -341,4 +348,67 @@ header {
    display: flex;
    margin-left:180px ;
    
+ }
+ @media screen and (max-width:600px){
+  .navbar{
+    width:1100px;
+  }
+  .navbar-menu{
+    margin-top:-10px;
+    margin-left:-43px;
+  }
+  .slider{
+    width:1100px;
+    margin-top:10px;
+  }
+  .description1{
+    display:flex;
+    text-align:center;
+    margin-left:450px;
+  }
+  .description2{
+    display:flex;
+    text-align:center;
+    margin-left:450px;
+    margin-top:-30px;
+    text-align:center;
+  }
+  .description3{
+    display:flex;
+    margin-top:100px;
+    margin-left:-110px;
+    text-align:center;
+  }
+  header{
+    margin-left:470px;
+    margin-top:-10px;
+    padding:10px;
+    text-align: justify;
+    
+  }
+  .read-more-btn{
+    padding:8px 16px;
+    font-size:16px;
+  }
+  .services-container{
+    margin-left:480px;
+  }
+  .section-content{
+  margin-left:450px;
+  }
+  .heading{
+    margin-left:450px;
+  }
+  .footer-contact{
+    width:1100px;
+  }
+  .heading1{
+    margin-left:-30px;
+  }
+  .contact-footer-info{
+    margin-left:-60px;
+  }
+  .contact{
+    margin-left:-60px;
+  }
  }
