@@ -1,0 +1,309 @@
+.navbar{
+    color:#000;
+    height:90px;
+    width:100%;
+    background-color:rgb(251, 249, 247);
+    box-shadow:0px 0px 0px 5px #f8560b;
+    }
+    .stringcode-logo-image{
+    height:70px;
+    width:140px;
+    margin-left:80px;
+    /* padding:7px; */
+    border: 0;
+    background-color:rgb(179, 176, 172);
+    margin-top:1px;
+    border-bottom: none; 
+    outline: none;
+  
+    }
+    .navbar-brand-name{
+        margin-top:0px;
+    }
+    .navbar-menu-container{
+    margin-left:580px;
+    padding:20px;
+    margin-top:-50px;
+    }
+    .navbar-menu{
+    padding:20px;
+    
+    font-size:20px;
+    color:#3b2612;
+    width:20px;
+    height:10px;
+    }
+    .navbar-menu:hover{
+    width:20px;
+    height:10px;
+    border-radius:10px;
+    background-color:#f8560b;
+    color:#fff;
+    padding:5px 10px;
+    margin:5px;
+    cursor:pointer;
+   
+  }
+  .read-more-btn {
+    background-color: #f8560b;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: auto; /* Pushes the button to the bottom */
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size:16px;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #f8560b;
+    padding:5px 10px;
+    cursor:pointer;
+    font-size:18px;
+  }
+  .read-more-btn1 {
+    background-color: #f8560b;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top:55px; /* Pushes the button to the bottom */
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size:16px;
+  }
+  
+  .read-more-btn1:hover {
+    background-color: #f8560b;
+    padding:5px 10px;
+    cursor:pointer;
+    font-size:18px;
+  }
+  .read-more-btn2 {
+    background-color: #f8560b;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top:10px; /* Pushes the button to the bottom */
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size:16px;
+  }
+  
+  .read-more-btn2:hover {
+    background-color: #f8560b;
+    padding:5px 10px;
+    cursor:pointer;
+    font-size:18px;
+  }
+  
+  /* Existing styles for services */
+  /* Basic styles, feel free to modify */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(217, 216, 216);
+  }
+  header {
+    background-color:rgb(217, 216, 216);
+    color:#000;
+    padding: 20px;
+    text-align: center;
+    margin-top:20px;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+  }
+  
+  .service {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: #fef8f8;
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+  }
+  .service p {
+    text-align:justify;
+  }
+  .about-us-btn{
+    background-color:#f8560b;
+    color:#fff;
+    padding:8px 16px;
+    margin-left:50px;
+    margin-top:20px;
+    border-radius:5px;
+    cursor:pointer;
+    border:2px solid #fb5d07;
+    font-size:16px;
+  }
+  .about-us-btn:hover{
+    padding:5px 10px;
+    font-size:18px;
+  
+  }
+  .footer-contact{
+    background-color:  #24262b;
+    padding: 50px 0;
+    height:250px;
+    margin-top:30px;
+  }
+  .contact-container{
+    max-width: 2000px;
+    margin:auto;
+    display: flex;
+    margin-left:180px ;
+    
+  }
+  .footer-col{
+    color: white;
+    font-size: 20px;
+  
+  }
+  .contact-row{
+    line-height:27px;
+    margin-left:10px;
+    margin-top:-40px;
+  }
+  .contact-footer-info{
+    text-decoration: none;
+    color: #faf8f8;
+  }
+  .social-link{
+   line-height: 100px;
+    display: flex;
+  }
+  .footer-col h4{
+    line-height:50px;
+    text-underline-position: 5px;
+  }
+  .img-contact{
+    width:30px;
+    height:30px;
+    cursor:pointer;
+  }
+  .link-tag{
+    color:#000;
+    text-decoration: none;
+  }
+  .contact{
+    margin-top:-60px;
+    text-align:start;
+    text-decoration: none;
+    color:#ccc;
+  }
+  .heading1{
+    margin-left:30px;
+  }
+  .contact-footer-info ul li{
+    margin-top:-10px;
+  }
+  .content{
+    margin-top:20px;
+    padding:20px;
+  }
+  .section-title{
+     text-align: center;
+     margin-top:30px;
+  }
+  .heading{
+     text-align: center;
+     font-size: 30px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+  }
+  .section-content{
+     text-align: justify;
+     font-size: 20px;
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-top:20px;
+  }
+  .link-tag{
+     text-decoration: none;
+     color:#000;
+  }
+  .link-tag:hover{
+     text-decoration:none;
+     color:white;
+  }
+  .footer-contact{
+     background-color:  #24262b;
+     padding: 50px 0;
+     height:250px;
+     margin-top:50px;
+   }
+   .contact-container{
+     max-width: 2000px;
+     margin:auto;
+     display: flex;
+     margin-left:180px ;
+     
+   }
+   @media screen and (max-width:600px){
+    .navbar{
+      width:1100px;
+    }
+    .navbar-menu{
+      margin-top:-20px;
+      margin-left:10px;
+    }
+    header{
+        margin-left:400px;
+        margin-top:10px;
+        padding:10px;
+        text-align:center;
+        width:300px;
+        
+      }
+      .read-more-btn{
+        padding:8px 16px;
+        font-size:16px;
+      }
+      .services-container{
+        margin-left:520px;
+      }
+      .section-content{
+      margin-left:240px;
+      text-align:justify;
+      width:600px;
+      }
+      .heading{
+        margin-left:270px;
+        width:500px;
+      }
+      .footer-contact{
+        width:1100px;
+      }
+      .heading1{
+        margin-left:-30px;
+      }
+      .contact-footer-info{
+        margin-left:-60px;;
+      }
+      .contact{
+        margin-left:-60px;
+      }
+     }
