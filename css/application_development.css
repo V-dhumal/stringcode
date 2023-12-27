@@ -48,6 +48,13 @@
 }
 .heading{
     margin-left:20px;
+    padding:20px;
+}
+.heading3{
+  padding:10px;
+  margin-left:80px;
+  margin-right: 80px;
+  text-align: justify;
 }
 .link-tag{
     color:#000;
@@ -104,4 +111,32 @@
 }
 .link-tag{
   text-decoration:none;
+}
+@media screen and (max-width:600px){
+  .navbar{
+    width:1000px;
+  }
+  .navbar-menu{
+    margin-left:-30px;
+  }.image{
+    margin-left:30px;
+    width:900px;
+  }
+  .heading{
+    text-align: center;
+    margin-left:200px;
+    width:600px;
+  }
+  .heading3{
+    text-align:center;
+    margin-left:200px;
+    width:580px;
+    text-align: justify;
+  }
+  .footer-contact{
+    width:1000px;
+  }
+  .contact-container{
+    margin-left:58px;
+  }
 }

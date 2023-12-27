@@ -106,6 +106,7 @@ body {
 .heading4{
     margin-top:10px;
     text-align: center;
+    width:
 }
 .link-tag{
     color:#000;
@@ -168,4 +169,45 @@ body {
   }
   .contact-footer-info ul li{
     margin-top:-10px;
+  }
+  @media screen and (max-width:600px){
+    .navbar{
+      width:1000px;
+    }
+    .navbar-menu{
+      margin-top:-50px;
+      margin-left:30px;
+    }
+    header{
+      width:950px;
+      
+    }
+    .footer-contact{
+      width:1100px;
+    }
+    .heading1{
+      margin-left:-70px;
+    }
+    .contact-footer-info{
+      margin-left:-110px;
+    }
+    .footer-contact{
+      margin-left:-30px;
+    }
+    .images{
+      width:150px;
+      align-items: center;
+      margin-left:50px;
+    }
+    .industry{
+      width:350px;
+      margin-left:50px;
+    }
+    .industry2{
+      width:300px;
+      margin-left:70px;
+    }
+    .contact{
+      margin-left:-60px;
+    }
   }
